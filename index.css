@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: rgb(1, 1, 12);
+    cursor: url("2.png"), auto;
+}
+
+#photo{
+    box-shadow: 2px 2px #606060;
+    border-radius: 50%;
+    border: 1px solid #606060;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#name{
+    margin-top: 15px;
+    margin-left: 110px;
+    text-shadow: 2px 2px #606060;
+    color: white;
+}
+
+#topo{
+    border-bottom: solid 5px #606060;
+    width: auto;
+    height: 450px;  
+}
+
+#script{
+    color: white;
+    margin-left: 450px;
+    margin-top: -330px;
+    margin-right: 46px;
+    font-size: 25px;
+    font-family: Archivo;
+    text-indent: 30px;
+}
+
+#julio{
+    text-shadow: 2px 2px #606060;
+}
+
+nav ul{
+    position: absolute;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 82px;
+    margin-left: 420px;
+}
+
+nav ul li{
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    
+}
+
+figure.secao1{
+    position: relative;
+    width: 30%;
+    margin-left: 100px;
+
+}
+/*Secão do Linkedin*/
+figure.secao1 img{
+    background-color: #606060;
+    box-shadow: 4px 4px rgba(255, 255, 255, .5);
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    border: 8px solid #ffffff;
+    margin-top: 20px;
+}
+
+figure.secao1 figcaption{
+    position: absolute;
+    color: white;
+    top: 0px;
+    background-color: rgb(0, 0, 0, .5);
+    width: 103%;
+    height: 100%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 200px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+figure.secao1:hover figcaption{
+    opacity: 1;
+    cursor: url("2.png"), auto;
+}
+
+figure.secao1 figcaption #linkedin a{
+    color: white;
+    text-decoration: none;
+}
+
+figure.secao1 figcaption #linkedin:hover a{
+    text-decoration: underline;
+    cursor: url("3.png"), auto;
+
+}
+
+/*Secão do Github*/
+figure.secao2{
+    position: relative;
+    width: 30%;
+    margin-left: 100px;
+}
+
+figure.secao2 img{
+    background-color: #606060;
+    box-shadow: 4px 4px rgba(255, 255, 255, .5);
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    border: 8px solid #ffffff;
+    margin-top: 20px;
+    
+}
+
+figure.secao2 figcaption{
+    position: absolute;
+    color: white;
+    top: 0px;
+    background-color: rgb(0, 0, 0, .5);
+    width: 103%;
+    height: 100%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 211px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+figure.secao2:hover figcaption{
+    opacity: 1;
+    cursor: url("2.png"), auto;
+}
+
+figure.secao2 figcaption #github a{
+    color: white;
+    text-decoration: none;
+}
+
+figure.secao2 figcaption #github:hover a{
+    text-decoration: underline;
+    cursor: url("3.png"), auto;
+
+}
+
+/*Secão do Instagram*/
+figure.secao3{
+    position: relative;
+    width: 30%;
+    margin-left: 900px;
+    margin-top: -1020px;
+}
+
+figure.secao3 img{
+    background-color: #606060;
+    box-shadow: 4px 4px rgba(255, 255, 255, .5);
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    border: 8px solid #ffffff;
+    
+
+}
+
+figure.secao3 figcaption{
+    position: absolute;
+    color: white;
+    top: 0px;
+    background-color: rgb(0, 0, 0, .5);
+    width: 103%;
+    height: 100%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding: 1px;
+    padding-left: 195px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+figure.secao3:hover figcaption{
+    opacity: 1;
+    cursor: url("2.png"), auto;
+}
+
+figure.secao3 figcaption #instagram a{
+    color: white;
+    text-decoration: none;
+}
+
+figure.secao3 figcaption #instagram:hover a{
+    text-decoration: underline;
+    cursor: url("3.png"), auto;
+
+}
+
+/*Seção do currículo*/
+figure.secao4{
+    position: relative;
+    width: 30%;
+    margin-left: 900px;
+}
+
+figure.secao4 img{
+    background-color: #606060;
+    box-shadow: 4px 4px rgba(255, 255, 255, .5);
+    border-radius: 20%;
+    width: 100%;
+    height: 100%;
+    border: 8px solid #ffffff;
+    margin-top: 15px;
+}
+
+figure.secao4 figcaption{
+    position: absolute;
+    color: white;
+    top: 0px;
+    background-color: rgb(0, 0, 0, .5);
+    width: 103%;
+    height: 100%;
+    border-radius: 20%;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 200px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+figure.secao4:hover figcaption{
+    opacity: 1;
+    cursor: url("2.png"), auto;
+}
+
+figure.secao4 figcaption #curriculo a{
+    color: white;
+    text-decoration: none;
+}
+
+figure.secao4 figcaption #curriculo:hover a{
+    text-decoration: underline;
+    cursor: url("3.png"), auto;
+
+}
+
